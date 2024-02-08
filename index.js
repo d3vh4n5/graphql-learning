@@ -10,42 +10,41 @@ import axios from 'axios'
 
 const persons = [
     {
-        id: 1,
-        name: 'Juan',
-        phone: '123-456-7890',
-        street: 'Main Street 123',
-        city: 'City A',
-        age: 33
+        "id": 1,
+        "name": "Midudev",
+        "phone": "123-456-7890",
+        "street": "Main Street 123",
+        "city": "City A",
+        "age": 33
     },
     {
-        id: 2,
-        name: 'María García',
-        street: 'Central Avenue 456',
-        city: 'City B'
+        "id": 2,
+        "name": "Dapelu",
+        "street": "Central Avenue 456",
+        "city": "City B"
     },
     {
-        id: 3,
-        name: 'Carlos López',
-        phone: '555-555-5555',
-        street: 'Guernica 777',
-        city: 'City C'
+        "id": 3,
+        "name": "asdolo94",
+        "phone": "555-555-5555",
+        "street": "Guernica 777",
+        "city": "City C"
     },
     {
-        id: 4,
-        name: 'Ana Martínez',
-        phone: '111-222-3333',
-        street: 'North Avenue 987',
-        city: 'City D'
+        "id": 4,
+        "name": "Ana Martínez",
+        "phone": "111-222-3333",
+        "street": "North Avenue 987",
+        "city": "City D"
     },
     {
-        id: 5,
-        name: 'Laura Rodríguez',
-        phone: '999-888-7777',
-        street: 'South Street 654',
-        city: 'City E'
+        "id": 5,
+        "name": "Laura Rodríguez",
+        "phone": "999-888-7777",
+        "street": "South Street 654",
+        "city": "City E"
     }
-]
-
+]   
 
 const typeDefinitions = gql`
     enum YesNo{
